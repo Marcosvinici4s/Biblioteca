@@ -6,19 +6,19 @@ export default function RootLayout() {
       screenOptions={{
         headerStyle: {
           backgroundColor: "#010101",
-          borderBottomWidth: 0, // Remove a borda
+          borderBottomWidth: 0, 
         },
         headerTintColor: "#fff",
         headerTitleStyle: {
           fontWeight: "bold",
         },
-        headerTitleAlign: "center", // Centraliza o título na barra de navegação
+        headerTitleAlign: "center", 
       }}
     >
-      {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       <Stack.Screen name="index" options={{ title: "Biblioteca M" }} />
       <Stack.Screen name="products" options={{ title: "Menu M" }} />
       <Stack.Screen name="booksingle/[id]" options={{ title: 'Biblioteca M' }} />
+      <Stack.Screen name="about2"options={{title: "Sobre2 WP"}}/>
     </Stack>
   );
 }
