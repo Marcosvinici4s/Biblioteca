@@ -1,0 +1,40 @@
+{
+    "listProduct": [
+        {
+            "id": 1,
+            "title": "George Orwell",
+            "description": "Um romance distópico que retrata uma sociedade totalitária onde o governo controla todos os aspectos da vida dos cidadãos. A história segue Winston Smith, que começa a questionar o regime opressor em que vive.",
+            "image": "livro"
+        },
+        {
+            "id": 2,
+            "title": "Brave New World",
+            "description": "Uma visão futurista de uma sociedade onde a felicidade é garantida através do controle rígido e da manipulação genética. O romance explora as consequências da perda da individualidade e da liberdade em troca de uma aparente utopia.",
+            "image": "livro6"
+        },
+        {
+            "id": 3,
+            "title": "To Kill a Mockingbird ",
+            "description": "Um romance comovente que aborda questões de racismo e injustiça no sul dos Estados Unidos, visto pelos olhos da jovem Scout Finch. Seu pai, Atticus Finch, é um advogado que defende um homem negro acusado de estuprar uma mulher branca.",
+            "image": "livro3"
+        },
+        {
+            "id": 4,
+            "title": "The Great Gatsby ",
+            "description": "Ambientado na era do jazz, este romance conta a história do misterioso milionário Jay Gatsby e sua obsessão por Daisy Buchanan. A narrativa explora temas de riqueza, amor e o sonho americano.",
+            "image": "livro4"
+        },
+        {
+            "id": 5,
+            "title": "Moby-Dick ",
+            "description": "Uma épica jornada de vingança no mar, onde o capitão Ahab persegue obsessivamente a enorme baleia branca, Moby-Dick. A história é narrada pelo marinheiro Ishmael e explora temas de destino, vingança e humanidade.",
+            "image": "livro5"
+        },
+        {
+            "id": 6,
+            "title": "Pride and Prejudice ",
+            "description": "Uma visão futurista de uma sociedade onde a felicidade é garantida através do controle rígido e da manipulação genética. O romance explora as consequências da perda da individualidade e da liberdade em troca de uma aparente utopia.",
+            "image": "livro2"
+        }
+    ]
+}
