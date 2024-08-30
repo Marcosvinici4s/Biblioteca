@@ -1,0 +1,43 @@
+{
+    "bibliotecajson":[
+
+        {
+            "id": 1,
+            "title": "Real Gabinete Português de Leitura",
+            "description": "A instituição já existia em 1837 antes da construção do prédio atual, fundada por um grupo de 43 imigrantes portugueses com o objetivo de promover os laços de amizade entre a comunidade lusitana já estabelecida na capital do império.",
+            "image": "biblio1"
+        },
+        {
+            "id": 2,
+            "title": "Biblioteca Nacional",
+            "description": "A Biblioteca Nacional do Rio de Janeiro é considerada pela UNESCO uma das dez maiores bibliotecas públicas do mundo. Teve origem como a antiga livraria de D. José, com a organização de Diogo Barbosa Machado, abade de Santo Antônio Adrião de Server. A coleção de livros foi iniciada a partir de 1755 para substituir a Livraria Real, que continha coleções de D. João I e seu filho D. Duarte e foi consumida pelo incêndio provocado por um terremoto em Lisboa.",
+            "image": "biblio2"
+        },
+        {
+            "id": 3,
+            "title": "Biblioteca Pública de Niterói ",
+            "description": "A biblioteca está localizada na Praça da República, um dos marcos arquitetônicos do centro do Rio. Foi projetado pelo arquiteto ítalo-brasileiro Pietro Capofiorito e inaugurada em 1935 para as comemorações do centenário ao título de cidade e capital do Rio de Janeiro na época. A construção, com cerca de 1500 metros quadrados, tem estilo eclético, com inspiração neoclássica.",
+            "image": "biblio3"
+        },
+        {
+            "id": 4,
+            "title": "Biblioteca Pública Estadual do Amazonas ",
+            "description": "Inicialmente, em 1870, o espaço era um liceu com uma sala de leitura. Depois passou a funcionar na Igreja Matriz de Nossa Senhora da Conceição e, em 1887 foi transferida para o Colégio Dom Pedro II.Após diversas mudanças e até extinção, a biblioteca foi construída em 1910 na localização atual. O prédio possui estilo neoclássico com escadas e colunas que vieram da Escócia, lustres e claraboias da Inglaterra.",
+            "image": "biblio4"
+        },
+        {
+            "id": 5,
+            "title": "Biblioteca Mário de Andrade",
+            "description": "Foi fundada em 1925 como Biblioteca Municipal de São Paulo com uma coleção inicial formada por obras que se encontravam em poder da Câmara Municipal, onde o prédio funcionava. A partir de 1937 incorporou a Biblioteca Pública do Estado enriquecendo o acervo culminando na inauguração do atual edifício projetado pelo arquiteto francês Jacques Pilon, considerado um marco da arquitetura moderna em São Paulo.",
+            "image": "biblio5"
+        },
+        {
+            "id": 6,
+            "title": "Biblioteca Parque de Manguinhos ",
+            "description": "A biblioteca é até relativamente nova, inaugurada em 2010, seguindo os preceitos da Biblioteca Parque da Colômbia que se destaca pela inclusão social é a primeira biblioteca parque do país.Possui 2,3 mil metros quadrados que abriga um amplo salão de leitura, salas para cursos e estudos, espaço multimídia, ludoteca e em breve contará com café literário e cineteatro com capacidade para 202 pessoas. Encontra-se temporariamente fechada.",
+            "image": "biblio6"
+        }
+        
+    ]
+    
+}

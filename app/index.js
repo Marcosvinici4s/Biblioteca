@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, ImageBackground, Pressable } from 'react-native';
+import { View, Text, StyleSheet, ImageBackground, TouchableOpacity, } from 'react-native';
 import { Link } from 'expo-router';
 
 const App = () => {
@@ -14,13 +14,35 @@ const App = () => {
           <Text style={styles.header}>Gostaria de Conhecer?</Text>
         </View>
       </ImageBackground>
+      
+      <View style={styles.buttonContainer}>
+      {/* <Link href="/flex" asChild>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>flex</Text>
+          </TouchableOpacity>
+        </Link> */}
+        <Link href="/biblioteca" asChild>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Bibliotecas</Text>
+          </TouchableOpacity>
+        </Link>
 
-      <Link href="/products" style={styles.button} asChild>
-        <Pressable>
-          <Text style={styles.buttonText}>Ver biblioteca</Text>
-        </Pressable>
-      </Link>
+        <Link href="/products" asChild>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Livros</Text>
+          </TouchableOpacity>
+        </Link>
+        <Link href="/Autores" asChild>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Autores</Text>
+          </TouchableOpacity>
+          
+
+          
+        </Link>
+      </View>
     </View>
+    
   );
 }
 
@@ -45,16 +67,27 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
-  button: {
+  buttonContainer: {
     position: 'absolute',
     bottom: 20,
     left: 20,
     right: 20,
+    alignItems: 'center',
+  },
+  button: {
     backgroundColor: '#C4A484', // cor de botão mais suave, lembrando couro
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 15,
     borderRadius: 10, // bordas menos arredondadas
+    marginBottom: 10, // espaço entre os botões
+    width: '100%',
+    shadowColor: '#000', // Cor da sombra
+        shadowOffset: { width: 0, height: 5 }, // Deslocamento da sombra
+        shadowOpacity: 0.3, // Opacidade da sombra
+        shadowRadius: 10, // Raio da sombra
+        // Sombra para Android
+        elevation: 5, // Elevação para sombra
   },
   buttonText: {
     fontSize: 18,

@@ -17,8 +17,9 @@ export default function RootLayout() {
     >
       <Stack.Screen name="index" options={{ title: "Biblioteca M" }} />
       <Stack.Screen name="products" options={{ title: "Menu M" }} />
-      <Stack.Screen name="booksingle/[id]" options={{ title: 'Biblioteca M' }} />
-      <Stack.Screen name="about2"options={{title: "Sobre2 WP"}}/>
+      <Stack.Screen name="biblioteca" options={{title: "Bibliotecas Famosas"}}/>
+      <Stack.Screen name="bibliotecasingle/[id]" options={{title: "bibliotecas"}}/>
+      <Stack.Screen name="flex"options={{title: "Flex"}}/>
     </Stack>
   );
 }
