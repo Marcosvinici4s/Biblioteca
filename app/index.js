@@ -10,7 +10,7 @@ const App = () => {
         source={require('../assets/images/bookshelf.jpg')} 
         resizeMode="cover"
       >
-        <View style={styles.textContainer}>
+        <View style={styles.textContainer}> 
           <Text style={styles.header}>Gostaria de Conhecer?</Text>
         </View>
       </ImageBackground>
