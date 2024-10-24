@@ -20,10 +20,16 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marcospiloto.biblioteca"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react';
 // import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native';
 // import { Link } from 'expo-router';
@@ -111,6 +112,13 @@ import { Link } from 'expo-router';
 import Icon from 'react-native-vector-icons/FontAwesome'; 
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from './firebaseConfig'; 
+=======
+import React from 'react';
+import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native';
+import { Link } from 'expo-router';
+import Icon from 'react-native-vector-icons/FontAwesome'; // Adicione a importação de ícones
+import notification from 'react-native'
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
 
 const App = () => {
   const [email, setEmail] = useState('');
@@ -155,9 +163,10 @@ const App = () => {
     <View style={styles.container}>
       <ImageBackground
         style={styles.image}
-        source={require('../assets/images/bookshelf.jpg')} 
+        source={require('../assets/images/bookshelf.jpg')}
         resizeMode="cover"
       >
+<<<<<<< HEAD
         {/* Ícone de perfil que abre o modal de login */}
         <View style={styles.loginIconContainer}>
           <Pressable onPress={() => setModalVisible(true)} style={styles.profileIcon}>
@@ -165,21 +174,35 @@ const App = () => {
           </Pressable>
         </View>
 
+=======
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
         <View style={styles.textContainer}>
           <Text style={styles.header}>Gostaria de Conhecer?</Text>
         </View>
       </ImageBackground>
+<<<<<<< HEAD
 
       {/* Botões de navegação */}
       <View style={styles.buttonContainer}>
+=======
+      <View style={styles.buttonContainer}>
+        <Link href="/notification" asChild>
+          <TouchableOpacity style={styles.iconButton}>
+            <Icon name="sign-in" size={30} color="#FFFFFF" />
+          </TouchableOpacity>
+        </Link>
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
         <Link href="/biblioteca" asChild>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Bibliotecas</Text>
           </TouchableOpacity>
         </Link>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
         <Link href="/products" asChild>
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Livros</Text>
@@ -190,6 +213,7 @@ const App = () => {
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Autores</Text>
           </TouchableOpacity>
+<<<<<<< HEAD
         </Link>
 
         <Link href="/firebaseCrud" asChild>
@@ -246,6 +270,14 @@ const App = () => {
   );
 };
 
+=======
+        </Link>
+      </View>
+    </View>
+  );
+}
+
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -263,7 +295,11 @@ const styles = StyleSheet.create({
   },
   header: {
     fontWeight: 'bold',
+<<<<<<< HEAD
     color: '#6A4E42', 
+=======
+    color: '#6A4E42',
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
     fontSize: 30,
     textAlign: 'center',
     backgroundColor: '#000000c0',
@@ -280,8 +316,27 @@ const styles = StyleSheet.create({
     right: 20,
     alignItems: 'center',
   },
+  iconButton: {
+    position: 'absolute', // Adicione esta linha
+    top: -630, // Ajuste conforme necessário
+    right: 2, // Ajuste conforme necessário
+    backgroundColor: '#C4A484',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 15,
+    borderRadius: 50, // Deixar redondo
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+    elevation: 5,
+  },
   button: {
+<<<<<<< HEAD
     backgroundColor: '#C4A484', 
+=======
+    backgroundColor: '#C4A484',
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 15,

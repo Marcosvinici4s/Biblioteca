@@ -10,7 +10,11 @@ export default function Flex() {
         </View>
         <View style={{ flexDirection: 'row', padding: 10 }}>
             <View style={{ flex: 1, alignItems: 'center' }}>
+<<<<<<< HEAD
                 <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/george.png')} />
+=======
+                <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/George.jpg')} />
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
             </View>
             <View style={{ flex: 1, justifyContent: 'center', paddingLeft: 10 }}>
                 <Text style={{ color: '#4B0082' }}>
@@ -26,7 +30,11 @@ export default function Flex() {
         </View>
         <View style={{ flexDirection: 'row', padding: 10 }}>
             <View style={{ flex: 1, alignItems: 'center' }}>
+<<<<<<< HEAD
                 <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/aldous.png')} />
+=======
+                <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/Aldous.jpg')} />
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
             </View>
             <View style={{ flex: 1, justifyContent: 'center', paddingLeft: 10 }}>
                 <Text style={{ color: '#4B0082' }}>
@@ -42,7 +50,11 @@ export default function Flex() {
         </View>
         <View style={{ flexDirection: 'row', padding: 10 }}>
             <View style={{ flex: 1, alignItems: 'center' }}>
+<<<<<<< HEAD
                 <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/harper.png')} />
+=======
+                <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/Harper.jpg')} />
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
             </View>
             <View style={{ flex: 1, justifyContent: 'center', paddingLeft: 10 }}>
                 <Text style={{ color: '#4B0082' }}>
@@ -58,7 +70,11 @@ export default function Flex() {
         </View>
         <View style={{ flexDirection: 'row', padding: 10 }}>
             <View style={{ flex: 1, alignItems: 'center' }}>
+<<<<<<< HEAD
                 <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/scott.png')} />
+=======
+                <Image style={{ width: 150, height: 150, borderRadius: 10 }} source={require('../assets/images/books/Scott.jpg')} />
+>>>>>>> 5b9db57b19cd7ca5f18075799dda5685eaf19eee
             </View>
             <View style={{ flex: 1, justifyContent: 'center', paddingLeft: 10 }}>
                 <Text style={{ color: '#4B0082' }}>
