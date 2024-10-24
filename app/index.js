@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native';
 import { Link } from 'expo-router';
 import Icon from 'react-native-vector-icons/FontAwesome'; // Adicione a importação de ícones
+import notification from 'react-native'
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
         </View>
       </ImageBackground>
       <View style={styles.buttonContainer}>
-        <Link href="/login" asChild>
+        <Link href="/notification" asChild>
           <TouchableOpacity style={styles.iconButton}>
             <Icon name="sign-in" size={30} color="#FFFFFF" />
           </TouchableOpacity>

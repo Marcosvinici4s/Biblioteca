@@ -3,7 +3,6 @@ import { Stack } from "expo-router";
 export default function RootLayout() {
   return (
     <Stack
-      initialRouteName="login"  // Definindo a tela de login como inicial
       screenOptions={{
         headerStyle: {
           backgroundColor: "#010101",
@@ -16,7 +15,7 @@ export default function RootLayout() {
         headerTitleAlign: "center",
       }}
     >
-      <Stack.Screen name="login" options={{ title: "Firebase" }} />
+      <Stack.Screen name="notification" options={{ title: 'Adicione' }} />
       <Stack.Screen name="index" options={{ title: "Biblioteca M" }} />
       <Stack.Screen name="products" options={{ title: "Menu M" }} />
       <Stack.Screen name="biblioteca" options={{ title: "Bibliotecas Famosas" }} />
